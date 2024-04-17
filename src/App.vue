@@ -15,9 +15,9 @@
 </template>
 
 <script>
-import RegisterForm from './components/RegisterForm.vue';
-import LoginForm from './components/LoginForm.vue';
-import BidForm from './components/BidForm.vue';
+ import RegisterForm from './components/registerForm.vue';
+ import LoginForm from './components/loginUser.vue';
+ import BidForm from './components/bidForm.vue';
 
 export default {
   name: 'App',
