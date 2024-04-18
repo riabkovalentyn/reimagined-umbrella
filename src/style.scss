@@ -1,0 +1,74 @@
+$primary-color: #FFD700;
+$secondary-color: #333333;
+$bg-color: #1a1a1a;
+$borger-color: #555555;
+$input-pading: 16px;
+
+.container{ 
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 32px;
+ background-color: $bg-color;
+}
+
+.title{
+    text-align: center;
+    color: $primary-color;
+    font-family: 'Playfair Display', serif;
+    font-size: 40px;
+    margin-bottom: 32px;
+}
+.auth-form{
+    margin-bottom: 32px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    margin-bottom: 24px;
+    padding: 16px;
+    border: 1px solid $borger-color;
+    border-radius: 6px;
+    width: 100%;
+    background-color: $bg-color;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto' sans-serif;
+}
+
+.button{
+    padding: 16px;
+    border: none;
+    background-repeat: 6px;
+    background-color: $bg-color;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.button:hover{
+    background-color: darken($primary-color, 10%);
+}
+
+.bid-list{
+    list-style-type: none;
+    padding: 0;
+}
+
+.bid-item{
+    margin-bottom: 16px;
+    padding: 24px;
+    background-color: $bg-color;
+    border: 2px solid $borger-color;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
